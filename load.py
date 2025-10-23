@@ -1,0 +1,1 @@
+print("Load Data to ADLS")
