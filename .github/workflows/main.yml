@@ -17,6 +17,9 @@ jobs:
       - name: checkout code
         run: python --version
 
+      - name: installing dependancies
+        run: pip install requirements.txt
+
       - name: run extract.py
         run: python extract.py
 
